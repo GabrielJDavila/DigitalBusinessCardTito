@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+}
+
+.app-container {
+    background-color: #1A1B21;
+    color: white;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card {
+    background: url("./assests/tito.jpg") no-repeat;
+    background-size: cover;
+    height: 240px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+header,
+main,
+footer {
+    padding: 0 40px;
+}
+
+.header-title {
+    margin: 0 0 5px 0;
+    padding-top: 1.5rem;
+}
+
+.header-description {
+    margin: 0 0 10px 0;
+    color: orange;
+}
+
+.header-website {
+    margin: 5px auto 15px auto;
+    font-size: 14px;
+}
+
+.bio-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1.5rem;
+}
+
+.email {
+    background: whitesmoke;
+    color: black;
+    padding: 8px;
+    width: 50%;
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+.linked-in {
+    background: dodgerblue;
+    color: white;
+    padding: 8px;
+    width: 50%;
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+main {
+    text-align: left;
+    margin: 2rem 0;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+footer {
+    background: #161619;
+    padding: 1rem;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
